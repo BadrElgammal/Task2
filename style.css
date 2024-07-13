@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all
+{
+    background-color: #1b1b1b;
+    height: 420px;
+}
+.member
+{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.text
+{
+    color: aliceblue;
+    width: 520px;
+    height: 100%;
+    font-size: 25px;
+    font-family: "Urbanist", sans-serif;
+    float: left;
+    margin: 10% 10px 0px;
+}
+.years
+{
+    font-size: 140%;
+    color: #b79632;
+}
+.image
+{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+}
+.img1
+{
+    width: 200%;
+    height: 75%;
+    margin: 40px 0px;
+    border-radius: 10%;
+}
+.clearfix
+{
+    clear: both;
+}
