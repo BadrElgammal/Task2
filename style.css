@@ -3,40 +3,82 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
 }
  body
  {
     background-color: #181818;
  }
 
+
+
+
+
 nav
 {
-    margin-top: 0px;
-    position: fixed;
-    z-index: 999px;
+    width: 100vw;
     height: 50px;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    overflow: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    position: fixed;
 }
 nav img
 {
     height: 100%;
-    float: left;
-    margin: 0px 100px ;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-
+    margin-left: 150px;
 }
-nav h1
+.text-nav
 {
-    font-size: 15px;
-    color: white;
-    float: right;
-    margin: 15px 30px 15px 0px;
-    font-family: "Urbanist", sans-serif;
+    font-size: 9px;
+    margin-right: 50px;
+    height: 100%;
+    display: flex;
 }
+nav .home
+{
+    height: 100%;
+    background-color: #b79632;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+nav .business
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+nav .about
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+nav .contact
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.home:hover,.business:hover,.about:hover,.contact:hover
+{
+    background-color: #b79632;
+}
+
+
+
+
+
 .text-photo
 {
     height: auto;
@@ -72,7 +114,7 @@ nav h1
     letter-spacing: 1.5px;
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
     margin-top: 30px;
-}
+} 
 .parent
 {
     background-image: url(./images/pexels-photo-8693379.webp);
@@ -83,51 +125,145 @@ nav h1
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    margin-bottom: 200px;
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
-.all
+
+
+
+
+
+
+.secion2
 {
-    
-    background-color: #1b1b1b;
-    height: 420px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
+.secion2 h1
+{
+    font-size: 50px;
+    color: #b79632;
+}
+.secion2 h2,a
+{
+    font-size: 30px;
+    color: #b79632;
+}
+
+
+.secion2-div1
+{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.secion2-div2
+{
+    width: 480px;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.secion2 img
+{
+    width: 70px;
+    height: 70px;
+}
+.secion2-div2-part
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.secion2-div2-part-text
+{
+    width: 380px;
+    padding: 10px;
+}
+
+
+
+
+
 .member
 {
-    width: 70%;
-    height: 100%;
-    margin: auto;
+    margin: 100px 0px;
+    width: 100vw;
+    height:400px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.member img
+{
+    width: 500px;
+    height: 80%;
+    border-radius: 10%;
 }
 .text
 {
-    color: aliceblue;
+    color: white;
     width: 520px;
-    height: 100%;
     font-size: 25px;
-    font-family: "Urbanist", sans-serif;
-    float: left;
-    margin: 10% 10px 0px;
 }
 .years
 {
     font-size: 140%;
     color: #b79632;
 }
-.image
+
+
+.logos
 {
-    width: 250px;
-    height: 100%;
-    display: inline-block;
+    color:  #b79632;
+    width: 100vw;
+    text-align: center;
+    display:flex;
+    margin: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px;
 }
-.img1
+.logos img
 {
-    width: 200%;
-    height: 75%;
-    margin: 40px 0px;
-    border-radius: 10%;
+    width: 150px;
+    height: 150px;
 }
-.clearfix
+.logos-image
 {
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.logos-image1
+{
+    width: 300px;
+    margin-top: 50px ;
+}
+.logos p
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.logos h1
+{
+    font-size: 50px;
 }
