@@ -74,28 +74,42 @@ nav .contact
 {
     background-color: #b79632;
 }
-
-
-
-
-
-.text-photo
+@media screen and (max-width: 700px) 
 {
-    height: auto;
-    width: 80%;
+    nav img
+    {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+.parent
+{
+    background-image: url(./images/pexels-photo-8693379.webp);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 400px;
+    margin-bottom: 100px;
 }
 .text1
 {
-    width: 35%;
-    font-size: 20px;
-    float: right;
-    text-align: center;
-    margin: auto;
-    font-family: "Urbanist", sans-serif;
+    padding: 100px;
+    width: 500px;
 }
 .text1 h1
 {
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 .span-photo
@@ -106,7 +120,7 @@ nav .contact
 {
     font-family: "Urbanist", sans-serif;
     font-size: 20px;
-    padding: 15px 50px;
+    padding: 10px 35px;
     color: white;
     background-color: #b79632;
     border-color:#b79632 ;
@@ -114,20 +128,14 @@ nav .contact
     letter-spacing: 1.5px;
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
     margin-top: 30px;
+    border: none;
 } 
-.parent
+@media screen and (max-width :700px)
 {
-    background-image: url(./images/pexels-photo-8693379.webp);
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
+    .parent
+    {
+        padding-left: 0px;
+    }
 }
 
 
@@ -196,6 +204,32 @@ nav .contact
     width: 380px;
     padding: 10px;
 }
+@media screen and (max-width :700px)
+{
+    .secion2
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .secion2 h1
+    {
+    font-size: 30px;
+    }
+     .secion2 h2,a
+     {
+    font-size: 24px;
+    }
+    .secion2-div2-part-text
+    {
+        width: 400px;
+    }
+    .secion2 img
+    {
+        width: 50px;
+        height: 50px;
+    }
+}
 
 
 
@@ -228,6 +262,26 @@ nav .contact
 {
     font-size: 140%;
     color: #b79632;
+}
+@media screen and (max-width :700px)
+{
+    .member
+    {
+        height: 500px;
+    }
+    .member img
+    {
+        width: 350px;
+    }
+    .text
+    {
+        font-size: 20px;
+        width: 400px;
+    }
+    .years
+    {
+        font-size: 140%;
+    }
 }
 
 
