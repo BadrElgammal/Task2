@@ -185,11 +185,21 @@ nav a
     }
     .button-photo
     {
-        padding: 20px 60px;
+        padding: 15px 50px;
+        font-size: 20px;
     }
     .text1
     {
         width: 100%;
+    }
+    .text1 h1 
+    {
+        font-size: 50px;
+    }
+    .text1 p 
+    {
+        font-size: 17;
+        width: 300px;
     }
 }
 
